@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test_DBHelper" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-05-06T08:15:24" hostname="BVA.users.pok.lynchhome.us" time="0.09">
+  <properties/>
+  <testcase name="testInsertCpuData" classname="Test_DBHelper" time="0.014"/>
+  <testcase name="testCreateDB" classname="Test_DBHelper" time="0.001"/>
+  <testcase name="testCreateTables" classname="Test_DBHelper" time="0.015"/>
+  <testcase name="testInsertPowerData" classname="Test_DBHelper" time="0.011"/>
+  <testcase name="testInsertSystemData" classname="Test_DBHelper" time="0.013"/>
+  <testcase name="testInsertProcessData" classname="Test_DBHelper" time="0.011"/>
+  <testcase name="testInsertMemoryData" classname="Test_DBHelper" time="0.013"/>
+  <testcase name="testInsertSystem" classname="Test_DBHelper" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

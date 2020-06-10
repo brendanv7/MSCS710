@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test_MeTrik" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-05-06T08:15:22" hostname="BVA.users.pok.lynchhome.us" time="2.064">
+  <properties/>
+  <testcase name="testGetSystemData" classname="Test_MeTrik" time="1.052"/>
+  <testcase name="testGetSystemInfo" classname="Test_MeTrik" time="0.015"/>
+  <testcase name="testGetProcessData" classname="Test_MeTrik" time="0.901"/>
+  <testcase name="testGetMemoryData" classname="Test_MeTrik" time="0.013"/>
+  <testcase name="testGetCpuData" classname="Test_MeTrik" time="0.026"/>
+  <testcase name="testGetPowerData" classname="Test_MeTrik" time="0.055"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[log4j:WARN No appenders could be found for logger ((DBHelper)).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+</testsuite>

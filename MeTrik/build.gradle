@@ -1,0 +1,32 @@
+plugins {
+    id 'application'
+    id "com.github.node-gradle.node" version '2.2.3'
+}
+
+apply plugin: "java"
+
+ext{
+    javaMainClass = 'MeTrik'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.xerial', name: 'sqlite-jdbc', version: '3.30.1'
+    implementation 'com.github.oshi:oshi-core:4.4.2'
+    implementation 'org.slf4j:slf4j-nop:1.7.25'
+    implementation group: 'junit', name: 'junit', version: '4.12'
+    implementation group: 'log4j', name: 'log4j', version: '1.2.17'
+}
+
+application {
+    mainClassName = javaMainClass
+}
+
+build.dependsOn npm_install
+
+run{
+    standardInput = System.in
+}
