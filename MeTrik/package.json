@@ -23,7 +23,7 @@
     "lodash": "^4.17.15",
     "map-canvas": "0.1.5",
     "minimist": ">=1.2.3",
-    "simple-git": "^1.131.0",
+    "simple-git": "^3.3.0",
     "sparkline": "0.2.0",
     "sqlite3": "4.2.0",
     "touch": "^3.1.0",
